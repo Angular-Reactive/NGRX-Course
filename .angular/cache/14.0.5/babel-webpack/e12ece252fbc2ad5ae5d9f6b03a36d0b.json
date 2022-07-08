@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var UserModel = {\n  id: null,\n  username: null,\n  email: null,\n  isadmin: false\n};","map":null,"metadata":{},"sourceType":"module"}
