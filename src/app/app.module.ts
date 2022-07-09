@@ -39,7 +39,13 @@ import { TopBarComponent } from './shared/top-bar/top-bar.component';
     AuthModule,
     FormsModule,
     CartModule,
-    AlertModule.forRoot({ maxMessages: 5, timeout: 5000, positionX: 'right' }),
+    AlertModule.forRoot(
+      { 
+        maxMessages: 5, 
+        timeout: 5000, 
+        positionX: 'right' 
+      }
+    ),
     BsDropdownModule.forRoot(),
     ModalModule.forRoot(),
     StoreModule.forRoot({}, {}),
